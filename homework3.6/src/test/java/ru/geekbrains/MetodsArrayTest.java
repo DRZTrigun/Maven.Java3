@@ -47,7 +47,6 @@ public class MetodsArrayTest {
         );
     }
 
-
     @Test
     public void shouldThrowIllegalArgumentExceptionWhenArrayZero() {
         RuntimeException ex = Assertions.assertThrows(RuntimeException.class, new Executable() {
@@ -71,5 +70,4 @@ public class MetodsArrayTest {
                 Arguments.arguments(false, new int[]{1, 1, 6, 7, 8, 3, 1, 9})
         );
     }
-
 }
